@@ -1,0 +1,5 @@
+brown = #51524D;
+blue = #8EBCB2;
+cream = #F3EBBA;
+orange = #F2B753;
+salmon = #DD697C;
