@@ -59,13 +59,24 @@ body {
   font-weight: bold;
 }
 
-.nav li > a {
+/*.nav li > a {
   color: #ED6D64;
   text-decoration: none;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
+  text-decoration: none;
+  color: #F3EBBA;
+}*/
+
+a {
+  text-decoration: none;
+  color: #ED6D64;
+}
+
+a:hover,
+a:focus {
   text-decoration: none;
   color: #F3EBBA;
 }
@@ -88,16 +99,21 @@ body {
 }
 
 .hero-unit h1 {
+  margin-bottom: 42px;
   font-size: 30px;
   letter-spacing: 1px;
   color: #ED6D64;
 }
 
 .hero-unit p {
-  margin-top: 42px;
   font-size: 20px;
   line-height: 22px;
   color: #51524D;
+}
+
+.hero-unit a:hover,
+.hero-unit a:focus {
+  color: #8EBCB2;
 }
 
 .container {
@@ -136,5 +152,4 @@ body {
   -webkit-box-shadow: 0px 0px 14px 0px rgba(81, 82, 77, 1);
     -moz-box-shadow: 0px 0px 14px 0px rgba(81, 82, 77, 1);
     box-shadow: 0px 0px 14px 0px rgba(81, 82, 77, 1);
-  /*border: solid 3px #8EBCB2;*/
 }
