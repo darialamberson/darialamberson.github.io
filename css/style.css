@@ -39,7 +39,7 @@ body {
 .banner ul {
   list-style-type: none;
   float: right;
-  margin: 48px 60px 0 0;
+  margin: 49px 60px 0 0;
 }
 
 .banner li {
@@ -47,20 +47,20 @@ body {
 }
 
 .v_line {
-  border-left: 2px solid #DD697C;
+  border-left: 2px solid #ED6D64;
   height: 45px;
   margin: -15px 15px;
 }
 
 .nav li {
-  color: #DD697C;
+  color: #ED6D64;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 19px;
   font-weight: bold;
 }
 
 .nav li > a {
-  color: #DD697C;
+  color: #ED6D64;
   text-decoration: none;
 }
 
@@ -71,11 +71,13 @@ body {
 }
 
 .hero-unit {
+  overflow: hidden;
   position: relative;
-  width: 90%;
-  padding: 40px 60px;
+  padding: 55px 60px;
   margin: 12px auto 0;
   font-weight: 200;
+  min-width: 720px;
+  max-width: 1000px;
   min-height: 100%;
   background: #F3EBBA;
   letter-spacing: -1;
@@ -85,14 +87,54 @@ body {
           border-radius: 8px;
 }
 
-.hero-unit > h1 {
-  font-size: 35px;
-  color: #DD697C;
+.hero-unit h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #ED6D64;
 }
 
-.hero-unit > p {
+.hero-unit p {
   margin-top: 42px;
   font-size: 20px;
   line-height: 22px;
   color: #51524D;
+}
+
+.container {
+  max-width: 94%;
+  margin: 0 auto;
+}
+
+.headshot {
+  width: 30%;
+  margin-top: 1%;
+}
+
+.span3 {
+  width: 25%;
+  margin: 0 4% 0 0;
+}
+
+.span7 {
+  width: 65%;
+  margin: 0 0 0 3%;
+}
+
+.welcome {
+  float: right;
+}
+
+.headshot {
+  float: left;
+  margin: auto auto;
+  width: 230px;
+  height: 230px;
+  display: block;
+  border-radius: 130px;
+  -webkit-border-radius: 130px;
+  -moz-border-radius: 130px;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(81, 82, 77, 1);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(81, 82, 77, 1);
+    box-shadow: 0px 0px 14px 0px rgba(81, 82, 77, 1);
+  /*border: solid 3px #8EBCB2;*/
 }
