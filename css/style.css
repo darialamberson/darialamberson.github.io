@@ -171,3 +171,7 @@ a:focus {
 }
 
 .resume-download { float: right; }
+
+#gallery p {text-align:center; margin:5px 0 25px 0; font-size: 13px; line-height: 18px; padding:0;   max-width: 100%; }
+#gallery img {display:block; margin:30px auto 5px; border:solid 1px #000}
+#copy {font-size:12px;text-align:center;color:#333;margin:10px 0}
